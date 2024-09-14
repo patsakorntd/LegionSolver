@@ -178,8 +178,8 @@ for (let i = 0; i < pieces.length; i++) {
     document.getElementById(`pieceDisplay${i+1}`).style.borderSpacing = '0';
     document.getElementById(`pieceDescription${i+1}`).style.paddingRight = '15px';
 
-    for (let j = 0; j < pieces[i].shape.length; j++) {
-        for (let k = 0; k < pieces[i].shape[j].length; k++) {
+    for (let j = 0; j < pieces[i].shape.length-1; j++) {
+        for (let k = 0; k < pieces[i].shape[j].length-1; k++) {
             if (pieces[i].shape[j][k] != 0) {
                 document.getElementById(`pieceDisplay${i+1}`)
                 .getElementsByTagName("tr")[j]
