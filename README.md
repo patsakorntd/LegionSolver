@@ -1,1 +1,1 @@
-https://xenogents.github.io/LegionSolver/
+https://patsakorntd.github.io/LegionSolver/
